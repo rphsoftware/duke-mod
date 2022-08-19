@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "fi.pfef.dukemod.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "DukeLoaderMixin",
+    "MainMenuMixin"
   ],
   "client": [
-    "ExampleMixin"
+
   ],
   "injectors": {
     "defaultRequire": 1
